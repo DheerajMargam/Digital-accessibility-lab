@@ -1,7 +1,7 @@
 
 # ♿ Digital Accessibility Lab
 
-A portfolio-style collection of accessibility resources, demos, and audit samples maintained by **Shaik Sony** (Accessibility Consultant, 4+ years).  
+A portfolio-style collection of accessibility resources, demos, and audit samples maintained by **Dheeraj Margam** (Accessibility Consultant, 4+ years).  
 Focus areas: **Low Vision**, **Keyboard Navigation**, **Screen Readers**, and **WCAG 2.2** compliance.
 
 ## 📂 Repository Structure

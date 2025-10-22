@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Contrast Demo — Fails vs Passes</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; line-height: 1.6; margin: 2rem; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1rem; }
+    .label { font-weight: 700; }
+    .bad { color: #999; background: #fff; }
+    .good { color: #111; background: #fff; }
+    .btn { display: inline-block; padding: 0.5rem 0.75rem; border-radius: 8px; text-decoration: none; margin-top: 0.5rem; }
+    .btn-bad { background: #8aa9ff; color: #93a2b3; border: 1px solid #8aa9ff; } /* likely fails non-text contrast */
+    .btn-good { background: #1a73e8; color: #fff; border: 1px solid #1558ab; }  /* improved contrast */
+  </style>
+</head>
+<body>
+  <h1>Color Contrast Demo</h1>
+  <p>This page shows examples that <strong>fail</strong> and <strong>pass</strong> WCAG color contrast requirements.</p>
+
+  <div class="card">
+    <div class="label">❌ Failing Text Contrast (WCAG 1.4.3)</div>
+    <p class="bad">This light gray text (#999) on white background may be hard to read for many users.</p>
+  </div>
+
+  <div class="card">
+    <div class="label">✅ Passing Text Contrast (WCAG 1.4.3)</div>
+    <p class="good">This dark text (#111) on white background meets stronger contrast and improves readability.</p>
+  </div>
+
+  <div class="card">
+    <div class="label">❌ Failing Non-Text Contrast (WCAG 1.4.11)</div>
+    <a class="btn btn-bad" href="#">Low-Contrast Button</a>
+  </div>
+
+  <div class="card">
+    <div class="label">✅ Passing Non-Text Contrast (WCAG 1.4.11)</div>
+    <a class="btn btn-good" href="#">Accessible Button</a>
+  </div>
+</body>
+</html>

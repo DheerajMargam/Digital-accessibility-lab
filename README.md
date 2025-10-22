@@ -18,5 +18,5 @@ Focus areas: **Low Vision**, **Keyboard Navigation**, **Screen Readers**, and **
 NVDA, VoiceOver, TalkBack, AXE DevTools, Accessibility Insights, Colour Contrast Analyser.
 
 ## 📫 Contact
-**Shaik Sony** — Accessibility Consultant  
-Email: your.email@example.com · LinkedIn: https://linkedin.com/in/your-profile
+**Dheeraj Margam** — Accessibility Consultant  
+Email: dheerajmargama11y.com · LinkedIn: https://www.linkedin.com/in/dheeraj-margam/
